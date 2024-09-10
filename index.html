@@ -22,34 +22,50 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 
-    <!-- Header med bild b1 -->
-    <header class="hero-section">
-        <img src="images/b1.jpg" alt="Sekelskifteshus" class="hero-image">
-        <div class="hero-text">
-            <h1>Välkommen till sekelskifteshus</h1>
-            <p>Upptäck tidlös charm och stil</p>
-        </div>
+    <header class="header">
+        <h1>Sekelskifteshus</h1>
+        <nav class="nav">
+            <a href="#hem">Hem</a>
+            <a href="#om-oss">Om oss</a>
+            <a href="#kontakt">Kontakt</a>
+        </nav>
     </header>
 
-    <!-- Content -->
-    <section class="content-section">
-        <div class="container">
-            <h2>Utforska vårt galleri</h2>
-            <div class="gallery">
-                <div class="gallery-item">
-                    <img src="images/b2.jpg" alt="Sekelskifteshus bild 1">
-                </div>
-                <div class="gallery-item">
-                    <img src="images/b3.jpg" alt="Sekelskifteshus bild 2">
-                </div>
-                <div class="gallery-item">
-                    <img src="images/b4.jpg" alt="Sekelskifteshus bild 3">
-                </div>
-            </div>
+    <section class="hero" id="hem">
+        <img src="images/b1.jpg" alt="Sekelskifteshus bild 1">
+        <div class="hero-text">
+            <h2>Välkommen till Sekelskifteshus</h2>
+            <p>Upptäck skönheten och historien bakom tidlösa sekelskifteshem.</p>
         </div>
     </section>
 
-    <!-- Footer -->
+    <section class="gallery">
+        <h2>Våra hus</h2>
+        <div class="gallery-images">
+            <img src="images/b2.jpg" alt="Interiör sekelskifteshus 1">
+            <img src="images/b3.jpg" alt="Interiör sekelskifteshus 2">
+            <img src="images/b4.jpg" alt="Interiör sekelskifteshus 3">
+        </div>
+    </section>
+
+    <section class="about" id="om-oss">
+        <h2>Om oss</h2>
+        <p>Vi är passionerade för att bevara och förmedla skönheten i svenska sekelskifteshus. Vårt mål är att koppla samman nutidens modernitet med historisk arkitektur för att skapa hem som andas både historia och nutid.</p>
+    </section>
+
+    <section class="contact" id="kontakt">
+        <h2>Kontakt</h2>
+        <form>
+            <label for="name">Namn:</label>
+            <input type="text" id="name" name="name">
+            <label for="email">E-post:</label>
+            <input type="email" id="email" name="email">
+            <label for="message">Meddelande:</label>
+            <textarea id="message" name="message"></textarea>
+            <button type="submit">Skicka</button>
+        </form>
+    </section>
+
     <footer>
         <p>&copy; 2024 Sekelskifteshus. Alla rättigheter förbehållna.</p>
     </footer>
